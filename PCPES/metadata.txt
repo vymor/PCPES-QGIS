@@ -1,0 +1,10 @@
+[general]
+name=Potential Coastal Protection Ecosystem Service of Seagrasses
+description=An assessment tool for the of the Potential Coastal Protection Ecosystem Service (PCPES) of seagrass meadows at coastal sites.
+about=This plugin provides estimations of the PCPES of seagrass meadows, resulted from the weighted mean of three considered factors: their spatial extent, depth distribution and relative exposure to waves. 
+version=1.0.0
+qgisMinimumVersion=3.0
+author=Vyron Moraitis
+email=bymwr@hotmail.com
+repository=https://github.com/vymor/PCPES
+category=Ecosystem Services
