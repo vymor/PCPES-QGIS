@@ -79,9 +79,9 @@ class CoastalProtectionESAlgorithm(QgsProcessingAlgorithm):
         self.addParameter(QgsProcessingParameterNumber('max_fetch_dist', self.tr('Maximum Fetch Distance (m)'), defaultValue=200000))
 
         # USER WEIGHTS
-        self.addParameter(QgsProcessingParameterNumber('weight_C1', self.tr('Weight for Criterion 1 (Seagrasses Shallow)'), defaultValue=0.58, type=QgsProcessingParameterNumber.Double))
-        self.addParameter(QgsProcessingParameterNumber('weight_C2', self.tr('Weight for Criterion 2 (Seagrasses)'), defaultValue=0.31, type=QgsProcessingParameterNumber.Double))
-        self.addParameter(QgsProcessingParameterNumber('weight_C3', self.tr('Weight for Criterion 3 (REI)'), defaultValue=0.11, type=QgsProcessingParameterNumber.Double))
+        self.addParameter(QgsProcessingParameterNumber('weight_C1', self.tr('Weight for Criterion 1 (Seagrasses Shallow)'), defaultValue=0.68, type=QgsProcessingParameterNumber.Double))
+        self.addParameter(QgsProcessingParameterNumber('weight_C2', self.tr('Weight for Criterion 2 (Seagrasses)'), defaultValue=0.12, type=QgsProcessingParameterNumber.Double))
+        self.addParameter(QgsProcessingParameterNumber('weight_C3', self.tr('Weight for Criterion 3 (REI)'), defaultValue=0.20, type=QgsProcessingParameterNumber.Double))
 
         self.addParameter(QgsProcessingParameterFeatureSink('OUTPUT', self.tr('Coastal Protection Segments')))
 
